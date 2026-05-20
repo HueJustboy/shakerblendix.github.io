@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -10,17 +11,24 @@
       margin:0;
       padding:0;
       box-sizing:border-box;
-      font-family:Arial,Helvetica,sans-serif
+      font-family:Arial,Helvetica,sans-serif;
     }
 
     body{
       background:#fbfbfa;
-      color:#0d2419
+      color:#0d2419;
     }
-
+	
+	.protein-img{
+		width: 250px;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
     .container{
-      width:min(1120px,88%);
-      margin:auto
+      width:min(1120px,90%);
+      margin:auto;
     }
 
     header{
@@ -28,27 +36,27 @@
       display:flex;
       align-items:center;
       justify-content:space-between;
-      background:#fff
+      background:#fff;
     }
 
     .logo{
       font-size:34px;
       font-weight:900;
       letter-spacing:-1px;
-      color:#0b2418
+      color:#0b2418;
     }
 
     nav{
       display:flex;
-      gap:58px;
+      gap:40px;
       align-items:center;
       font-weight:700;
-      font-size:15px
+      font-size:15px;
     }
 
     nav a{
       text-decoration:none;
-      color:#111
+      color:#111;
     }
 
     .order{
@@ -61,89 +69,99 @@
       align-items:center;
       text-decoration:none;
       font-weight:800;
-      box-shadow:0 6px 14px rgba(0,0,0,.12)
+      box-shadow:0 6px 14px rgba(0,0,0,.12);
     }
 
     .hero-img{
       width:100%;
       display:block;
-      border-radius:10px;
-      margin:12px auto 0;
-      box-shadow:0 8px 18px rgba(0,0,0,.05)
+      border-radius:12px;
+      margin:20px auto 0;
+      box-shadow:0 8px 18px rgba(0,0,0,.08);
     }
 
     section{
-      padding:36px 0
+      padding:60px 0;
     }
 
     .title{
       text-align:center;
-      font-size:28px;
+      font-size:32px;
       font-weight:900;
-      letter-spacing:.5px;
-      margin-bottom:8px
+      margin-bottom:8px;
     }
 
     .line{
       width:70px;
       height:3px;
       background:#0b2418;
-      margin:0 auto 18px
+      margin:0 auto 18px;
     }
 
     .subtitle{
       text-align:center;
       font-size:18px;
-      margin-bottom:28px;
-      color:#222
+      margin-bottom:40px;
+      color:#222;
     }
 
     .products{
       display:grid;
       grid-template-columns:1fr 1fr;
-      gap:22px
+      gap:24px;
     }
 
     .card{
       background:white;
       border:1px solid #ddd;
-      border-radius:10px;
+      border-radius:14px;
       display:grid;
       grid-template-columns:42% 58%;
       align-items:center;
-      min-height:295px;
-      padding:28px;
-      box-shadow:0 8px 20px rgba(0,0,0,.04)
+      min-height:320px;
+      padding:26px;
+      box-shadow:0 10px 22px rgba(0,0,0,.05);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
     }
 
     .product-visual{
-      height:350px;
       display:flex;
       align-items:center;
-      justify-content:center
+      justify-content:center;
+      height:320px;
     }
 
+	.protein-img{
+		width: 250px;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	
     .product-img{
-      max-height:350px;
+      max-height:250px;
       width:auto;
       object-fit:contain;
-      display:block;
-      margin:auto;
-      filter:drop-shadow(0 10px 18px rgba(0,0,0,.18));
+      filter:drop-shadow(0 12px 20px rgba(0,0,0,.15));
     }
 
     .card h3{
-      font-size:26px;
+      font-size:28px;
       line-height:1.2;
       margin-bottom:18px;
-      color:#0b2418
+      color:#0b2418;
     }
 
     .checks{
       list-style:none;
       margin-bottom:22px;
       font-size:17px;
-      line-height:1.85
+      line-height:1.8;
     }
 
     .checks li:before{
@@ -151,111 +169,97 @@
       background:#0b2418;
       color:white;
       border-radius:50%;
-      font-size:13px;
+      font-size:12px;
       margin-right:12px;
-      padding:2px 5px
+      padding:2px 5px;
     }
 
     .price{
-      font-size:42px;
+      font-size:46px;
       font-weight:900;
       color:#0b2418;
-      display:inline-block;
-      margin-right:28px
+      margin-bottom:18px;
     }
 
     .price sup{
-      font-size:24px
+      font-size:24px;
     }
 
     .buy{
       background:#0b2418;
       color:white;
       border:none;
-      border-radius:7px;
-      padding:13px 22px;
+      border-radius:8px;
+      padding:14px 24px;
       font-weight:800;
       font-size:15px;
-      cursor:pointer
+      cursor:pointer;
     }
 
     .benefits{
       background:#fbf0df;
-      border-radius:10px;
+      border-radius:12px;
       display:grid;
       grid-template-columns:repeat(4,1fr);
-      margin-top:20px;
+      margin-top:50px;
       padding:28px 18px;
-      text-align:center
+      text-align:center;
     }
 
     .benefit{
       border-right:1px solid #d8cdbf;
-      padding:0 22px
+      padding:0 22px;
     }
 
     .benefit:last-child{
-      border-right:none
+      border-right:none;
     }
 
     .icon{
       font-size:34px;
-      margin-bottom:10px
+      margin-bottom:10px;
     }
 
     .benefit h4{
       font-size:15px;
-      margin-bottom:8px
+      margin-bottom:8px;
     }
 
     .benefit p{
       font-size:14px;
       line-height:1.45;
-      color:#111
+      color:#111;
     }
 
     .about{
       display:grid;
       grid-template-columns:1fr 1fr;
-      gap:62px;
+      gap:60px;
       align-items:center;
-      padding-bottom:55px
-    }
-
-    .gym-img{
-      height:300px;
-      border-radius:12px;
-      overflow:hidden;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      background:#eee;
     }
 
     .gym-img img{
       width:100%;
-      height:100%;
-      object-fit:cover;
-      display:block;
+      border-radius:12px;
     }
 
     .about h2{
-      font-size:30px;
-      margin-bottom:10px
+      font-size:32px;
+      margin-bottom:10px;
     }
 
-    .about .small-line{
+    .small-line{
       width:55px;
       height:3px;
       background:#0b2418;
-      margin-bottom:22px
+      margin-bottom:22px;
     }
 
     .about p{
       font-size:17px;
-      line-height:1.65;
+      line-height:1.7;
       margin-bottom:28px;
-      color:#111
+      color:#111;
     }
 
     .about-icons{
@@ -263,45 +267,45 @@
       grid-template-columns:repeat(3,1fr);
       text-align:center;
       font-weight:800;
-      font-size:14px
     }
 
     .about-icons div{
-      font-size:36px
+      font-size:36px;
     }
 
     .about-icons span{
       display:block;
       font-size:14px;
-      margin-top:8px
+      margin-top:8px;
     }
 
     footer{
       background:linear-gradient(135deg,#0b2418,#173929);
       color:white;
-      padding:42px 0 18px
+      padding:42px 0 18px;
+      margin-top:50px;
     }
 
     .footer-grid{
       display:grid;
       grid-template-columns:1.5fr 1fr 1fr 1fr;
-      gap:34px
+      gap:34px;
     }
 
     .footer-logo{
       font-size:34px;
-      font-weight:900
+      font-weight:900;
     }
 
     .footer-slogan{
       font-size:18px;
       font-weight:900;
-      margin-top:8px
+      margin-top:8px;
     }
 
     footer h4{
       font-size:14px;
-      margin-bottom:14px
+      margin-bottom:14px;
     }
 
     footer p,
@@ -310,7 +314,7 @@
       color:white;
       text-decoration:none;
       font-size:14px;
-      line-height:1.8
+      line-height:1.8;
     }
 
     .copy{
@@ -318,42 +322,38 @@
       border-top:1px solid rgba(255,255,255,.22);
       margin-top:30px;
       padding-top:18px;
-      font-size:14px
+      font-size:14px;
     }
 
     @media(max-width:850px){
 
       nav{
-        display:none
+        display:none;
       }
 
       .products,
       .about,
       .footer-grid{
-        grid-template-columns:1fr
+        grid-template-columns:1fr;
       }
 
       .card{
         grid-template-columns:1fr;
-        text-align:center
+        text-align:center;
       }
 
       .benefits{
-        grid-template-columns:1fr
+        grid-template-columns:1fr;
       }
 
       .benefit{
         border-right:none;
         border-bottom:1px solid #d8cdbf;
-        padding:18px
+        padding:18px;
       }
 
       .benefit:last-child{
-        border-bottom:none
-      }
-
-      .container{
-        width:92%
+        border-bottom:none;
       }
     }
   </style>
@@ -377,29 +377,21 @@
   <main>
 
     <div class="container">
-      <img class="hero-img"
-      src="./Silver and Blue Modern Soda Drink Presentation 4.jpg"
-      alt="Blendix Werbebanner">
+      <img class="hero-img" src="Silver and Blue Modern Soda Drink Presentation 4.jpg" alt="Blendix Banner">
     </div>
 
     <section id="produkte" class="container">
 
       <h1 class="title">UNSERE PRODUKTE</h1>
-
       <div class="line"></div>
-
-      <p class="subtitle">
-        Hochwertige Shaker für deinen aktiven Lifestyle.
-      </p>
+      <p class="subtitle">Shaker & Whey Protein für deinen aktiven Lifestyle.</p>
 
       <div class="products">
 
+        <!-- Shaker Klein -->
         <div class="card">
-
           <div class="product-visual">
-            <img src="./blendix-250ml.jpg"
-            alt="Blendix Shaker 250ML"
-            class="product-img">
+            <img src="blendix-250ml.jpg" alt="Blendix Shaker 250ML" class="product-img">
           </div>
 
           <div>
@@ -412,23 +404,15 @@
               <li>Perfekt für unterwegs</li>
             </ul>
 
-            <div class="price">
-              19<sup>99</sup>
-            </div>
-
-            <button class="buy">
-              Jetzt kaufen
-            </button>
+            <div class="price">19<sup>99</sup>€</div>
+            <button class="buy">Jetzt kaufen</button>
           </div>
-
         </div>
 
+        <!-- Shaker Groß -->
         <div class="card">
-
           <div class="product-visual">
-            <img src="./blendix-500ml.jpg"
-            alt="Blendix Shaker 500ML"
-            class="product-img">
+            <img src="blendix-500ml.jpg" alt="Blendix Shaker 500ML" class="product-img">
           </div>
 
           <div>
@@ -437,19 +421,97 @@
             <ul class="checks">
               <li>BPA-FREI</li>
               <li>Spülmaschinenfest</li>
-              <li>Auslaufsicher</li>
               <li>Extra Volumen</li>
+              <li>Premium Qualität</li>
             </ul>
 
-            <div class="price">
-              29<sup>99</sup>
-            </div>
+            <div class="price">29<sup>99</sup>€</div>
+            <button class="buy">Jetzt kaufen</button>
+          </div>
+        </div>
 
-            <button class="buy">
-              Jetzt kaufen
-            </button>
+        <!-- Pulver Klein -->
+        <div class="card">
+          <div class="product-visual">
+            <img src="Ohne Hinter Grund Klein.png" alt="Blendix Protein 25g" class="protein-img">
           </div>
 
+          <div>
+            <h3>BLENDIX WHEY<br>25G PORTION</h3>
+
+            <ul class="checks">
+              <li>Hoher Proteingehalt</li>
+              <li>Zuckerarm</li>
+              <li>Cremiger Geschmack</li>
+              <li>Ideal zum Testen</li>
+            </ul>
+
+            <div class="price">2<sup>99</sup>€</div>
+            <button class="buy">Jetzt kaufen</button>
+          </div>
+        </div>
+
+        <!-- Pulver Groß -->
+        <div class="card">
+          <div class="product-visual">
+            <img src="Ohne Hintergrund Groß.png" alt="Blendix Protein 250g" class="protein-img">
+          </div>
+
+          <div>
+            <h3>BLENDIX WHEY<br>250G DOSE</h3>
+
+            <ul class="checks">
+              <li>Premium Whey</li>
+              <li>Hoher Proteingehalt</li>
+              <li>Perfekt für Muskelaufbau</li>
+              <li>Mehrere Sorten</li>
+            </ul>
+
+            <div class="price">14<sup>99</sup>€</div>
+            <button class="buy">Jetzt kaufen</button>
+          </div>
+        </div>
+
+        <!-- Sorten Klein -->
+        <div class="card">
+          <div class="product-visual">
+            <img src="Pulver Klein viel.png" alt="Blendix Geschmacksrichtungen" class="product-img">
+          </div>
+
+          <div>
+            <h3>GESCHMACKS-<br>RICHTUNGEN</h3>
+
+            <ul class="checks">
+              <li>Vanille</li>
+              <li>Schokolade</li>
+              <li>Erdbeere</li>
+              <li>Cookies & Cream</li>
+            </ul>
+
+            <div class="price">ab 2<sup>99</sup>€</div>
+            <button class="buy">Jetzt kaufen</button>
+          </div>
+        </div>
+
+        <!-- Sorten Groß -->
+        <div class="card">
+          <div class="product-visual">
+            <img src="Pulver Groß viel.png" alt="Blendix Premium Series" class="product-img">
+          </div>
+
+          <div>
+            <h3>PREMIUM<br>PROTEIN SERIES</h3>
+
+            <ul class="checks">
+              <li>8 Portionen</li>
+              <li>Premium Qualität</li>
+              <li>Ideal für Fitness</li>
+              <li>Maximaler Geschmack</li>
+            </ul>
+
+            <div class="price">ab 14<sup>99</sup>€</div>
+            <button class="buy">Jetzt kaufen</button>
+          </div>
         </div>
 
       </div>
@@ -470,60 +532,41 @@
 
         <div class="benefit">
           <div class="icon">♢</div>
-          <h4>AUSLAUFSICHER</h4>
-          <p>Kein Auslaufen, 100% sicher.</p>
+          <h4>HOHER PROTEINGEHALT</h4>
+          <p>Perfekt für Fitness & Muskelaufbau.</p>
         </div>
 
         <div class="benefit">
           <div class="icon">♤</div>
-          <h4>HOCHWERTIG</h4>
-          <p>Robustes Material für den Alltag.</p>
+          <h4>PREMIUM QUALITÄT</h4>
+          <p>Modernes Design und hochwertige Zutaten.</p>
         </div>
 
       </div>
-
     </section>
 
     <section id="ueber" class="container about">
 
       <div class="gym-img">
-        <img src="./blendix-gym.jpg"
-        alt="Blendix Lifestyle">
+        <img src="blendix-gym.jpg" alt="Blendix Lifestyle">
       </div>
 
       <div>
-
         <h2>ÜBER BLENDIX</h2>
-
         <div class="small-line"></div>
 
         <p>
           BLENDIX steht für Qualität, Funktionalität und modernes Design.
-          Unsere Shaker sind die perfekten Begleiter für Sport,
-          Arbeit und Alltag. Mix deinen Erfolg – jeden Tag!
+          Unsere Produkte unterstützen deinen aktiven Lifestyle – egal ob im Gym,
+          im Alltag oder unterwegs.
         </p>
 
         <div class="about-icons">
-
-          <div>
-            🏋️
-            <span>Für Sport & Fitness</span>
-          </div>
-
-          <div>
-            💼
-            <span>Für Arbeit & Alltag</span>
-          </div>
-
-          <div>
-            ♡
-            <span>Für deinen Lifestyle</span>
-          </div>
-
+          <div>🏋️<span>Für Fitness</span></div>
+          <div>💼<span>Für Alltag</span></div>
+          <div>♡<span>Für Lifestyle</span></div>
         </div>
-
       </div>
-
     </section>
 
   </main>
@@ -534,14 +577,11 @@
 
       <div>
         <div class="footer-logo">BLENDIX</div>
-        <div class="footer-slogan">
-          MIX DEINEN ERFOLG
-        </div>
+        <div class="footer-slogan">MIX DEINEN ERFOLG</div>
       </div>
 
       <div>
         <h4>NAVIGATION</h4>
-
         <a href="#produkte">Produkte</a>
         <a href="#ueber">Über uns</a>
         <a href="#vorteile">Vorteile</a>
@@ -550,19 +590,14 @@
 
       <div>
         <h4>KONTAKT</h4>
-
-        <p>✉ info@shakerblendix.de</p>
-        <p>☎ +49 176 12345678</p>
-        <p>◎ @shakerblendix</p>
-        <p>🌐 www.shakerblendix.de</p>
+        <p>✉ info@blendix.de</p>
+        <p>◎ @blendix_official</p>
+        <p>🌐 www.blendix.de</p>
       </div>
 
       <div>
         <h4>FOLGE UNS</h4>
-
-        <p style="font-size:30px">
-          ◎ ♪
-        </p>
+        <p style="font-size:30px">◎ ♪</p>
       </div>
 
     </div>
@@ -575,3 +610,4 @@
 
 </body>
 </html>
+```
