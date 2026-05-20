@@ -433,7 +433,7 @@
         <!-- Pulver Klein -->
         <div class="card">
           <div class="product-visual">
-            <img src="Ohne Hinter Grund Klein.png" alt="Blendix Protein 25g" class="protein-img">
+            <img src="Ohne Hinter Grund Klein.png" alt="Blendix Protein 25g" class="product-img">
           </div>
 
           <div>
@@ -454,7 +454,7 @@
         <!-- Pulver Groß -->
         <div class="card">
           <div class="product-visual">
-            <img src="Ohne Hintergrund Groß.png" alt="Blendix Protein 250g" class="protein-img">
+            <img src="Ohne Hintergrund Groß.png" alt="Blendix Protein 250g" class="product-img">
           </div>
 
           <div>
@@ -475,7 +475,7 @@
         <!-- Sorten Klein -->
         <div class="card">
           <div class="product-visual">
-            <img src="Pulver Klein viel.png" alt="Blendix Geschmacksrichtungen" class="product-img">
+            <img src="Pulver Klein viel.png" alt="Blendix Geschmacksrichtungen" class="protein-img">
           </div>
 
           <div>
@@ -496,7 +496,7 @@
         <!-- Sorten Groß -->
         <div class="card">
           <div class="product-visual">
-            <img src="Pulver Groß viel.png" alt="Blendix Premium Series" class="product-img">
+            <img src="Pulver Groß viel.png" alt="Blendix Premium Series" class="protein-img">
           </div>
 
           <div>
