@@ -442,10 +442,10 @@
               <li>Hoher Proteingehalt</li>
               <li>Zuckerarm</li>
               <li>Cremiger Geschmack</li>
-              <li>Ideal zum Testen</li>
+              <li>mit 10 Probierpulver</li>
             </ul>
 
-            <div class="price">2<sup>99</sup>€</div>
+            <div class="price">46<sup>99</sup>€</div>
             <button class="buy">Jetzt kaufen</button>
           </div>
         </div>
@@ -466,7 +466,7 @@
               <li>Mehrere Sorten</li>
             </ul>
 
-            <div class="price">14<sup>99</sup>€</div>
+            <div class="price">54<sup>99</sup>€</div>
             <button class="buy">Jetzt kaufen</button>
           </div>
         </div>
@@ -478,13 +478,13 @@
           </div>
 
           <div>
-            <h3>GESCHMACKS-<br>RICHTUNGEN</h3>
+            <h3>PROBIER-<br>PULVER (EINZELN)</h3>
 
             <ul class="checks">
               <li>Vanille</li>
               <li>Schokolade</li>
               <li>Erdbeere</li>
-              <li>Cookies & Cream</li>
+              <li>+ 5 weitere Sorten</li>
             </ul>
 
             <div class="price">ab 2<sup>99</sup>€</div>
