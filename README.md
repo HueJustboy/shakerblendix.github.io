@@ -604,9 +604,10 @@
         <div class="small-line"></div>
 
         <p>
-          BLENDIX steht für Qualität, Funktionalität und modernes Design.
-          Unsere Produkte unterstützen deinen aktiven Lifestyle – egal ob im Gym,
-          im Alltag oder unterwegs.
+          BLENDIX verbindet Qualität, Funktionalität, modernes Design und Nachhaltigkeit.  
+  Unsere Produkte begleiten deinen aktiven Lifestyle – im Gym, im Alltag  
+  und unterwegs. Mit recycelbaren Materialien und mikroplastikfreien Lösungen  
+  setzen wir auf eine nachhaltigere Zukunft.
         </p>
 
         <div class="about-icons">
