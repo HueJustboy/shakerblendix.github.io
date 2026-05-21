@@ -219,6 +219,26 @@
       margin-bottom:10px;
     }
 
+	.section-banner{
+		width:100%;
+		background:linear-gradient(90deg,#0b2418,#173929);
+		padding:18px;
+		margin:50px 0 25px;
+		border-radius:14px;
+		text-align:center;
+		box-shadow:0 4px 15px rgba(0,0,0,0.25);
+		grid-column: 1 / -1;
+	}
+
+	.section-banner h2{
+		color:white;
+		font-size:32px;
+		font-weight:800;
+		letter-spacing:1px;
+		margin:0;
+		text-transform:uppercase;
+	}
+
     .benefit h4{
       font-size:15px;
       margin-bottom:8px;
@@ -429,6 +449,11 @@
           </div>
         </div>
 
+		<!-- VORTEILSPACKS BANNER -->
+		<div class="section-banner">
+			<h2>Vorteilspacks</h2>
+		</div>
+		
         <!-- Pulver Klein -->
         <div class="card">
           <div class="product-visual">
@@ -436,7 +461,7 @@
           </div>
 
           <div>
-            <h3>BLENDIX WHEY<br>25G PORTION</h3>
+            <h3>BLENDIX WHEY<br>10x 25G PORTION</h3>
 
             <ul class="checks">
               <li>Hoher Proteingehalt</li>
@@ -470,6 +495,11 @@
             <button class="buy">Jetzt kaufen</button>
           </div>
         </div>
+		
+		<!-- PROTEINPULVER BANNER -->
+		<div class="section-banner">
+			<h2>Proteinpulver</h2>
+		</div>
 
         <!-- Sorten Klein -->
         <div class="card">
