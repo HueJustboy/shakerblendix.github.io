@@ -363,7 +363,6 @@
 		filter:brightness(0) invert(1);
 	}
 
-	  
     @media(max-width:850px){
 
       nav{
@@ -624,6 +623,8 @@
 
     <div class="container footer-grid">
 
+      <div class="footer-brand">
+
 		<div class="footer-certificates">
 			<img src="wwf-logo.png" alt="WWF Logo">
 			<img src="recycling-logo.png" alt="Recycling Logo">
@@ -633,9 +634,9 @@
 			<div class="footer-logo">BLENDIX</div>
 			<div class="footer-slogan">MIX DEINEN ERFOLG</div>
 		</div>
-		
+
 	</div>
-	  
+
       <div>
         <h4>NAVIGATION</h4>
         <a href="#produkte">Produkte</a>
