@@ -344,6 +344,26 @@
       font-size:14px;
     }
 
+	.footer-brand{
+		display:flex;
+		align-items:center;
+		gap:20px;
+	}
+
+	.footer-certificates{
+		display:flex;
+		gap:12px;
+		align-items:center;
+	}
+
+	.footer-certificates img{
+		width:60px;
+		height:auto;
+		object-fit:contain;
+		filter:brightness(0) invert(1);
+	}
+
+	  
     @media(max-width:850px){
 
       nav{
@@ -604,11 +624,18 @@
 
     <div class="container footer-grid">
 
-      <div>
-        <div class="footer-logo">BLENDIX</div>
-        <div class="footer-slogan">MIX DEINEN ERFOLG</div>
-      </div>
+		<div class="footer-certificates">
+			<img src="wwf-logo.png" alt="WWF Logo">
+			<img src="recycling-logo.png" alt="Recycling Logo">
+		</div>
 
+		<div>
+			<div class="footer-logo">BLENDIX</div>
+			<div class="footer-slogan">MIX DEINEN ERFOLG</div>
+		</div>
+		
+	</div>
+	  
       <div>
         <h4>NAVIGATION</h4>
         <a href="#produkte">Produkte</a>
@@ -621,6 +648,7 @@
         <h4>KONTAKT</h4>
         <p>✉ info@blendix.de</p>
         <p>◎ @blendix_official</p>
+		<p>📞 +49 176 12345678</p>
         <p>🌐 www.blendix.de</p>
       </div>
 
